@@ -4,7 +4,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "watch": "npx tailwindcss -i ./input.css -o ./output.css --watch "
   },
   "devDependencies": {
     "tailwindcss": "^3.0.13",
