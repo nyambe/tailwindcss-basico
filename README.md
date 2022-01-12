@@ -8,7 +8,7 @@ Incluye servidor web, creato via vite. Necesitas tener nodejs instalado para pod
 
 ### Instalacion
 
-Ejemplo en el directorio /frontend
+Ejemplo en el directorio /frontend (por ejemplo)
 
 ```console
 
@@ -18,5 +18,9 @@ cd tailwindcss-basico
 
 npm install
 
-npm run dev
+npm run serve
 ```
+
+### Uso
+
+Tiene un servicio watch que va incluyendo las classes que vayas utilizando en fichero output.css automáticamente y un servidor web que lo carga muy rápido. Ni te das cuenta.
