@@ -4,9 +4,11 @@
   "scripts": {
     "serve": "run-p dev watch",
     "dev": "vite",
-    "build": "vite build",
+    "build-only": "vite build",
+    "build": "run-s create build",
     "preview": "vite preview",
-    "watch": "npx tailwindcss -i ./input.css -o ./output.css --watch "
+    "watch": "npx tailwindcss -i ./input.css -o ./output.css --watch",
+    "create": "npx tailwindcss -i ./input.css -o ./output.css"
   },
   "devDependencies": {
     "npm-run-all": "^4.1.5",
