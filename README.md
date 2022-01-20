@@ -31,3 +31,5 @@ Hay una rama nakedcss sin los estilos base de tailwind
 Hay una rama prefixcss con los un prejifo mi-
 
 Estos ejemplos se pueden utilizar para ir creando tu propio sistema de diseño
+
+[PREVIEW](https://nyambe.github.io/tailwindcss-basico/)
